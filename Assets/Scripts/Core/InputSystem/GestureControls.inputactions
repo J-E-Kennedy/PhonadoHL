@@ -1,0 +1,93 @@
+{
+    "name": "GestureControls",
+    "maps": [
+        {
+            "name": "User",
+            "id": "4351a3b6-ed01-47e1-a261-a8fd9b399521",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "10d3e4f1-6aee-4b18-8c79-f891aa202d24",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "StartExperience",
+                    "type": "Button",
+                    "id": "19049d90-c212-4e08-b10c-f97ff1504a44",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "PlaceObject",
+                    "type": "Button",
+                    "id": "1340c9d7-efe3-46d3-8579-c7146662149c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5f6e0f06-f0ad-4a80-9315-883ad13e74cf",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ca743c9-c99a-47d0-8045-afb5294d5757",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2dbd7a10-c66d-40e0-89d6-382b48a761b5",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartExperience",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a49d4d0f-3cc1-4398-bb1b-0af49ead26ea",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartExperience",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "814d3e7a-ee90-44a6-89c2-3ab65b460749",
+                    "path": "<Keyboard>/#(F)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
